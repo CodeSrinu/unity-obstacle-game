@@ -6,18 +6,28 @@ using UnityEngine;
 public class changeColor : MonoBehaviour
 {
     private MeshRenderer mr;
+    private Color orginalWallColor;
 
     private void Start()
     {
         
         mr = GetComponent<MeshRenderer>();
+        orginalWallColor = mr.material.color;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            mr.material.color = Color.cyan; 
+            mr.material.color = Color.red; 
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            mr.material.color = orginalWallColor;
         }
     }
 }
