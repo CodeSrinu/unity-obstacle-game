@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ball
+  - ramp1
+  - ramp2
+  - ground
+  - Ground
+  - openCoin
+  - Starting Point
+  - Wall
+  - Coin
+  - Bomb
+  - Door
+  - Mage Trigger
+  - Mage
+  - Diamond
+  - Harmful Obj
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -11,7 +27,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

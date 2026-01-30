@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Assignment001.unity
-    guid: c49a4d531577cb543aecbc241a41dc83
+    path: Assets/Scenes/Lost in House/Menu Scene.unity
+    guid: e6a77d4ca00bb9e4284d6d19d40c363d
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Lost in House/Level 0.unity
+    guid: 6b4cd31d6181f5d468899541cae0a665
+  - enabled: 1
+    path: Assets/Scenes/Lost in House/Level 1.unity
+    guid: a91d6923308a7ff4bb446852f2c21144
+  - enabled: 1
+    path: Assets/Scenes/Lost in House/Level 2.unity
+    guid: f874adcc3c258ea4da4102649f8cfe11
   m_configObjects: {}
